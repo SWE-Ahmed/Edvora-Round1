@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3345EE0C27CBE13D00471408 /* Edvora_Round1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3345EE0B27CBE13D00471408 /* Edvora_Round1App.swift */; };
+		3345EE0E27CBE13D00471408 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3345EE0D27CBE13D00471408 /* ContentView.swift */; };
+		3345EE1027CBE13F00471408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3345EE0F27CBE13F00471408 /* Assets.xcassets */; };
+		3345EE1327CBE13F00471408 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3345EE1227CBE13F00471408 /* Preview Assets.xcassets */; };
+		3345EE1D27CBE13F00471408 /* Edvora_Round1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3345EE1C27CBE13F00471408 /* Edvora_Round1Tests.swift */; };
+		3345EE2727CBE13F00471408 /* Edvora_Round1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3345EE2627CBE13F00471408 /* Edvora_Round1UITests.swift */; };
+		3345EE2927CBE13F00471408 /* Edvora_Round1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3345EE2827CBE13F00471408 /* Edvora_Round1UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3345EE1927CBE13F00471408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3345EE0027CBE13D00471408 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3345EE0727CBE13D00471408;
+			remoteInfo = "Edvora-Round1";
+		};
+		3345EE2327CBE13F00471408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3345EE0027CBE13D00471408 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3345EE0727CBE13D00471408;
+			remoteInfo = "Edvora-Round1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3345EE0827CBE13D00471408 /* Edvora-Round1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Edvora-Round1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3345EE0B27CBE13D00471408 /* Edvora_Round1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edvora_Round1App.swift; sourceTree = "<group>"; };
+		3345EE0D27CBE13D00471408 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3345EE0F27CBE13F00471408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3345EE1227CBE13F00471408 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3345EE1827CBE13F00471408 /* Edvora-Round1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Edvora-Round1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3345EE1C27CBE13F00471408 /* Edvora_Round1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edvora_Round1Tests.swift; sourceTree = "<group>"; };
+		3345EE2227CBE13F00471408 /* Edvora-Round1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Edvora-Round1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3345EE2627CBE13F00471408 /* Edvora_Round1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edvora_Round1UITests.swift; sourceTree = "<group>"; };
+		3345EE2827CBE13F00471408 /* Edvora_Round1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edvora_Round1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3345EE0527CBE13D00471408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3345EE1527CBE13F00471408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3345EE1F27CBE13F00471408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3345EDFF27CBE13D00471408 = {
+			isa = PBXGroup;
+			children = (
+				3345EE0A27CBE13D00471408 /* Edvora-Round1 */,
+				3345EE1B27CBE13F00471408 /* Edvora-Round1Tests */,
+				3345EE2527CBE13F00471408 /* Edvora-Round1UITests */,
+				3345EE0927CBE13D00471408 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3345EE0927CBE13D00471408 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3345EE0827CBE13D00471408 /* Edvora-Round1.app */,
+				3345EE1827CBE13F00471408 /* Edvora-Round1Tests.xctest */,
+				3345EE2227CBE13F00471408 /* Edvora-Round1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3345EE0A27CBE13D00471408 /* Edvora-Round1 */ = {
+			isa = PBXGroup;
+			children = (
+				3345EE0B27CBE13D00471408 /* Edvora_Round1App.swift */,
+				3345EE0D27CBE13D00471408 /* ContentView.swift */,
+				3345EE0F27CBE13F00471408 /* Assets.xcassets */,
+				3345EE1127CBE13F00471408 /* Preview Content */,
+			);
+			path = "Edvora-Round1";
+			sourceTree = "<group>";
+		};
+		3345EE1127CBE13F00471408 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3345EE1227CBE13F00471408 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3345EE1B27CBE13F00471408 /* Edvora-Round1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3345EE1C27CBE13F00471408 /* Edvora_Round1Tests.swift */,
+			);
+			path = "Edvora-Round1Tests";
+			sourceTree = "<group>";
+		};
+		3345EE2527CBE13F00471408 /* Edvora-Round1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3345EE2627CBE13F00471408 /* Edvora_Round1UITests.swift */,
+				3345EE2827CBE13F00471408 /* Edvora_Round1UITestsLaunchTests.swift */,
+			);
+			path = "Edvora-Round1UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3345EE0727CBE13D00471408 /* Edvora-Round1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3345EE2C27CBE13F00471408 /* Build configuration list for PBXNativeTarget "Edvora-Round1" */;
+			buildPhases = (
+				3345EE0427CBE13D00471408 /* Sources */,
+				3345EE0527CBE13D00471408 /* Frameworks */,
+				3345EE0627CBE13D00471408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Edvora-Round1";
+			productName = "Edvora-Round1";
+			productReference = 3345EE0827CBE13D00471408 /* Edvora-Round1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3345EE1727CBE13F00471408 /* Edvora-Round1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3345EE2F27CBE13F00471408 /* Build configuration list for PBXNativeTarget "Edvora-Round1Tests" */;
+			buildPhases = (
+				3345EE1427CBE13F00471408 /* Sources */,
+				3345EE1527CBE13F00471408 /* Frameworks */,
+				3345EE1627CBE13F00471408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3345EE1A27CBE13F00471408 /* PBXTargetDependency */,
+			);
+			name = "Edvora-Round1Tests";
+			productName = "Edvora-Round1Tests";
+			productReference = 3345EE1827CBE13F00471408 /* Edvora-Round1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3345EE2127CBE13F00471408 /* Edvora-Round1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3345EE3227CBE13F00471408 /* Build configuration list for PBXNativeTarget "Edvora-Round1UITests" */;
+			buildPhases = (
+				3345EE1E27CBE13F00471408 /* Sources */,
+				3345EE1F27CBE13F00471408 /* Frameworks */,
+				3345EE2027CBE13F00471408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3345EE2427CBE13F00471408 /* PBXTargetDependency */,
+			);
+			name = "Edvora-Round1UITests";
+			productName = "Edvora-Round1UITests";
+			productReference = 3345EE2227CBE13F00471408 /* Edvora-Round1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3345EE0027CBE13D00471408 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3345EE0727CBE13D00471408 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3345EE1727CBE13F00471408 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3345EE0727CBE13D00471408;
+					};
+					3345EE2127CBE13F00471408 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3345EE0727CBE13D00471408;
+					};
+				};
+			};
+			buildConfigurationList = 3345EE0327CBE13D00471408 /* Build configuration list for PBXProject "Edvora-Round1" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3345EDFF27CBE13D00471408;
+			productRefGroup = 3345EE0927CBE13D00471408 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3345EE0727CBE13D00471408 /* Edvora-Round1 */,
+				3345EE1727CBE13F00471408 /* Edvora-Round1Tests */,
+				3345EE2127CBE13F00471408 /* Edvora-Round1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3345EE0627CBE13D00471408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3345EE1327CBE13F00471408 /* Preview Assets.xcassets in Resources */,
+				3345EE1027CBE13F00471408 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3345EE1627CBE13F00471408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3345EE2027CBE13F00471408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3345EE0427CBE13D00471408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3345EE0E27CBE13D00471408 /* ContentView.swift in Sources */,
+				3345EE0C27CBE13D00471408 /* Edvora_Round1App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3345EE1427CBE13F00471408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3345EE1D27CBE13F00471408 /* Edvora_Round1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3345EE1E27CBE13F00471408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3345EE2927CBE13F00471408 /* Edvora_Round1UITestsLaunchTests.swift in Sources */,
+				3345EE2727CBE13F00471408 /* Edvora_Round1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3345EE1A27CBE13F00471408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3345EE0727CBE13D00471408 /* Edvora-Round1 */;
+			targetProxy = 3345EE1927CBE13F00471408 /* PBXContainerItemProxy */;
+		};
+		3345EE2427CBE13F00471408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3345EE0727CBE13D00471408 /* Edvora-Round1 */;
+			targetProxy = 3345EE2327CBE13F00471408 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3345EE2A27CBE13F00471408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3345EE2B27CBE13F00471408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3345EE2D27CBE13F00471408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Edvora-Round1/Preview Content\"";
+				DEVELOPMENT_TEAM = 6F34JZL3M6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SwiftUI-App.Edvora-Round1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3345EE2E27CBE13F00471408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Edvora-Round1/Preview Content\"";
+				DEVELOPMENT_TEAM = 6F34JZL3M6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SwiftUI-App.Edvora-Round1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3345EE3027CBE13F00471408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6F34JZL3M6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SwiftUI-App.Edvora-Round1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Edvora-Round1.app/Edvora-Round1";
+			};
+			name = Debug;
+		};
+		3345EE3127CBE13F00471408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6F34JZL3M6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SwiftUI-App.Edvora-Round1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Edvora-Round1.app/Edvora-Round1";
+			};
+			name = Release;
+		};
+		3345EE3327CBE13F00471408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6F34JZL3M6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SwiftUI-App.Edvora-Round1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Edvora-Round1";
+			};
+			name = Debug;
+		};
+		3345EE3427CBE13F00471408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6F34JZL3M6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SwiftUI-App.Edvora-Round1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Edvora-Round1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3345EE0327CBE13D00471408 /* Build configuration list for PBXProject "Edvora-Round1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3345EE2A27CBE13F00471408 /* Debug */,
+				3345EE2B27CBE13F00471408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3345EE2C27CBE13F00471408 /* Build configuration list for PBXNativeTarget "Edvora-Round1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3345EE2D27CBE13F00471408 /* Debug */,
+				3345EE2E27CBE13F00471408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3345EE2F27CBE13F00471408 /* Build configuration list for PBXNativeTarget "Edvora-Round1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3345EE3027CBE13F00471408 /* Debug */,
+				3345EE3127CBE13F00471408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3345EE3227CBE13F00471408 /* Build configuration list for PBXNativeTarget "Edvora-Round1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3345EE3327CBE13F00471408 /* Debug */,
+				3345EE3427CBE13F00471408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3345EE0027CBE13D00471408 /* Project object */;
+}
