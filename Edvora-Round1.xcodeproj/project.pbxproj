@@ -14,6 +14,10 @@
 		3345EE1D27CBE13F00471408 /* Edvora_Round1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3345EE1C27CBE13F00471408 /* Edvora_Round1Tests.swift */; };
 		3345EE2727CBE13F00471408 /* Edvora_Round1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3345EE2627CBE13F00471408 /* Edvora_Round1UITests.swift */; };
 		3345EE2927CBE13F00471408 /* Edvora_Round1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3345EE2827CBE13F00471408 /* Edvora_Round1UITestsLaunchTests.swift */; };
+		3345EE3827CBE70E00471408 /* StationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3345EE3727CBE70E00471408 /* StationData.swift */; };
+		3345EE3A27CBE96B00471408 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3345EE3927CBE96B00471408 /* NetworkManager.swift */; };
+		3345EE3C27CBFEA600471408 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3345EE3B27CBFEA600471408 /* CardView.swift */; };
+		3345EE3E27CD66C100471408 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3345EE3D27CD66C100471408 /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		3345EE2227CBE13F00471408 /* Edvora-Round1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Edvora-Round1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3345EE2627CBE13F00471408 /* Edvora_Round1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edvora_Round1UITests.swift; sourceTree = "<group>"; };
 		3345EE2827CBE13F00471408 /* Edvora_Round1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edvora_Round1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3345EE3727CBE70E00471408 /* StationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationData.swift; sourceTree = "<group>"; };
+		3345EE3927CBE96B00471408 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		3345EE3B27CBFEA600471408 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3345EE3D27CD66C100471408 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,9 @@
 		3345EE0A27CBE13D00471408 /* Edvora-Round1 */ = {
 			isa = PBXGroup;
 			children = (
+				3345EE3627CBE61C00471408 /* Models */,
+				3345EE3527CBE60E00471408 /* Views */,
 				3345EE0B27CBE13D00471408 /* Edvora_Round1App.swift */,
-				3345EE0D27CBE13D00471408 /* ContentView.swift */,
 				3345EE0F27CBE13F00471408 /* Assets.xcassets */,
 				3345EE1127CBE13F00471408 /* Preview Content */,
 			);
@@ -125,6 +134,25 @@
 				3345EE2827CBE13F00471408 /* Edvora_Round1UITestsLaunchTests.swift */,
 			);
 			path = "Edvora-Round1UITests";
+			sourceTree = "<group>";
+		};
+		3345EE3527CBE60E00471408 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3345EE0D27CBE13D00471408 /* ContentView.swift */,
+				3345EE3B27CBFEA600471408 /* CardView.swift */,
+				3345EE3D27CD66C100471408 /* DetailsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3345EE3627CBE61C00471408 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3345EE3727CBE70E00471408 /* StationData.swift */,
+				3345EE3927CBE96B00471408 /* NetworkManager.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3345EE3A27CBE96B00471408 /* NetworkManager.swift in Sources */,
 				3345EE0E27CBE13D00471408 /* ContentView.swift in Sources */,
+				3345EE3827CBE70E00471408 /* StationData.swift in Sources */,
 				3345EE0C27CBE13D00471408 /* Edvora_Round1App.swift in Sources */,
+				3345EE3C27CBFEA600471408 /* CardView.swift in Sources */,
+				3345EE3E27CD66C100471408 /* DetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
